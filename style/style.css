@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #000000;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+em {
+  color: #cb2c7c;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  font-size: 1.1em;
+  color: white;
+}
+
+header,
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 20px 20px;
+}
+
+section {
+  padding: 80px;
+}
+
+/* Espace entre les icone réseaux sociaux */
+.lien-icone {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.reseaux {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Transparence icones réseaux sociaux */
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+/* Disposition du nav */
+nav {
+  text-align: center;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 996px) {
+  h1{
+    font-size: 2em;
+  }
+
+  header nav{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header nav img{
+    margin-bottom: 150px;
+  }
+
+  header footer{
+    padding: 20px 20px;
+  }
+
+  section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
